@@ -1,5 +1,5 @@
 import SignIn from "./signIn";
-
+import OtpCode from "./OtpCode"
 
 const Login = () => {
 
@@ -9,7 +9,7 @@ const Login = () => {
         <img src="https://www.digikala.com/statics/img/svg/logo.svg" width={150} height={401} alt="" />
       </div>
       <div className="self-start space-y-4">
-        <h1 className="text-slate-900 text-lg  ">ورود | ثبت‌نام</h1>
+        <h1 className="text-slate-900 text-lg font-semibold ">ورود | ثبت‌نام</h1>
         <p className="text-slate-900 text-xs">سلام!</p>
         <p className="text-slate-900 text-xs">
           لطفا شماره موبایل یا ایمیل خود را وارد کنید
