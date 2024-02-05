@@ -32,7 +32,7 @@ Timer = () => {
     <div>
       {timerEnded ? (
         <p>
-          <a href="/resend-code" className='text-xs text-slate-600'>دریافت مجدد کد</a>
+          <a href="/" className='text-xs text-slate-600'>دریافت مجدد کد</a>
         </p>
       ) : (
         <p className='text-xs text-slate-600'>
